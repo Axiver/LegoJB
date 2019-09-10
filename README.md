@@ -2,9 +2,9 @@
 
 This is code from a discord bot that I made for the Lego's Servers Discord Server. They ran a Jailbreak server for CSGO. I'm releasing this as it is unlikely that they will open up ever again.
 
-The code has been modified from its original form as it contained confidential information. You may modify this for your own usage.
+The code has been modified from its original form as it contained confidential information. It is obviously spaghetti, and it is riddled with bugs. You may modify this for your own usage.
 
-That being said, I may come back to this project in the future to add customisability or just improve it in general.
+That being said, I may come back to this project in the future to add customisability or even refactor the code. I will be accepting pull requests to improve on the code.
 
 ## Getting started
 
@@ -23,11 +23,14 @@ After downloading Nodejs and npm, `cd` into the directory you installed the bot 
 
 #### Setup
 
-I will update this section after I modify the original file in preparation of pushing to the repo.
+#### Manual
 
-#### Modification of files
+You will need to modify certain files for the bot to work (See [Modification of files](#modification-of-files)). Afterwards, run `node legojb.js` and the bot should fire right up.
 
-I will update this section after I modify the original file in preparation of pushing to the repo.
+##### Modification of files
+
+You are required to add a Discord bot token in `./config/token.json`, replacing `<yourtoken>`.
+You will also need to change every `plschange` in `./legojb.js` with a fitting variable for the bot to function.
 
 ## Contributing
 
